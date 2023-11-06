@@ -1,6 +1,6 @@
 # Alerts-Manager
 
-Alert Manager maintains and updates the Alerts data by Alerts api built with in-memory database
+Alert Manager maintains and updates the Alerts data using Alerts api built with in-memory database
 
 # Steps to run the application
 
