@@ -1,4 +1,4 @@
-module github.com/Jaya/walmart-api
+module github.com/alerts-manager
 
 go 1.20
 

@@ -1,25 +1,29 @@
 package storage
 
 import (
-	"github.com/Jaya/walmart-api/api/models"
-	"github.com/Jaya/walmart-api/api/util"
+	"github.com/alerts-manager/api/models"
+	"github.com/alerts-manager/api/util"
 )
 
+// MemoryStorage ...
 type MemoryStorage struct {
 	alertStorage []models.Alert
 }
 
+// NewMemoryStorage ...
 func NewMemoryStorage() *MemoryStorage {
 	return &MemoryStorage{
 		alertStorage: []models.Alert{},
 	}
 }
 
+// SaveAlert ...
 func (m *MemoryStorage) SaveAlert(alert models.Alert) error {
 	m.alertStorage = append(m.alertStorage, alert)
 	return nil
 }
 
+// GetAlerts ...
 func (m *MemoryStorage) GetAlerts(alertQuery models.AlertQuery) ([]models.Alert, error) {
 	filteredAlerts := m.alertStorage
 
