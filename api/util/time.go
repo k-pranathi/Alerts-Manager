@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// GetTimeFromEpoch ...
 func GetTimeFromEpoch(epoch string) (*time.Time, error) {
 	i, err := strconv.ParseInt(epoch, 10, 64)
 	if err != nil {

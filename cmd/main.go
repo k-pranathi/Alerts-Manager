@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/Jaya/walmart-api/api/handlers"
-	"github.com/Jaya/walmart-api/api/storage"
+	"github.com/alerts-manager/api/handlers"
+	"github.com/alerts-manager/api/storage"
 	"github.com/gin-gonic/gin"
 )
 

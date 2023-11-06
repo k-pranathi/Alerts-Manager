@@ -1,5 +1,6 @@
 package models
 
+// Alert ...
 type Alert struct {
 	AlertID     string `json:"alert_id"`
 	ServiceID   string `json:"service_id"`

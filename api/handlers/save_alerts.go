@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"github.com/Jaya/walmart-api/api/models"
+	"github.com/alerts-manager/api/models"
 	"github.com/gin-gonic/gin"
 )
 
+// SaveAlerts ...
 func (h *AlertHandlers) SaveAlerts(c *gin.Context) {
 	requestBody := models.Alert{}
 	if err := c.Bind(&requestBody); err != nil {

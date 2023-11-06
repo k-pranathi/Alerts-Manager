@@ -1,7 +1,8 @@
 package util
 
-import "github.com/Jaya/walmart-api/api/models"
+import "github.com/alerts-manager/api/models"
 
+// GetAlertResponse ...
 func GetAlertResponse(alerts []models.Alert) *models.AlertResponseBody {
 	alertResponseBody := &models.AlertResponseBody{}
 

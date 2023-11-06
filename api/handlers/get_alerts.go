@@ -1,11 +1,12 @@
 package handlers
 
 import (
-	"github.com/Jaya/walmart-api/api/models"
-	"github.com/Jaya/walmart-api/api/util"
+	"github.com/alerts-manager/api/models"
+	"github.com/alerts-manager/api/util"
 	"github.com/gin-gonic/gin"
 )
 
+// GetAlerts ...
 func (h *AlertHandlers) GetAlerts(c *gin.Context) {
 	queryParam := c.Request.URL.Query()
 	alertQuery := models.AlertQuery{}
