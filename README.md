@@ -5,7 +5,7 @@ Alert Manager maintains and updates the Alerts data using Alerts api built with 
 # Steps to run the application
 
 1. Clone the repoistory
-2. Download all the dependencies in go mod
+2. Download all the dependencies in go mod and make sure latest go version is installed
 3. Open terminal and make sure you are in following directory,
     ```<local-path>/Alerts-Manager```
 4. Run the following command in terminal to run the application,
